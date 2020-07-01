@@ -8,7 +8,7 @@ function App() {
   let [isMorning,setMorning]=useState(true);
   return (
     <div>
-      <h1 className={`box ${isMorning?'DayLight':'NightLight'}`}>Today is {isMorning==true?"Morning":"Night"}</h1>
+      <h1 className={`box ${isMorning?'DayLight':'NightLight'}`}>Today is {isMorning===true?"Morning":"Night"}</h1>
   <Message counter={count}/>
   <br/>
 
